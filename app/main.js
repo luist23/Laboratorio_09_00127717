@@ -130,7 +130,8 @@ http.createServer((req, res)=>{
  * el tipo de contenido que se devuelve en el caso de html es 'text/html' y css 'text/css'
  * 
  * ¿Qué contiene la variable "result"?
- * contiene los datos (los pedidos medeiante inputs... principalmente) enviados por el cliente por ejemplo por el metodo submit... en este caso un formulario (posiblemente)
+ * contiene los datos (los pedidos medeiante inputs... principalmente) enviados por el cliente por ejemplo por el metodo submit... 
+ * en este caso un formulario (posiblemente)
  * 
  * ¿Por qué con la variable "data" se debe aplicarse el metodo toString()? Justifique.
  * para obtener el contenido como un texto plano y porcesarlo posteriormente
